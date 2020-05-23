@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockVote</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <link href="css/landing.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <header>
+    <div id="navbar-custom"></div>
+  </header>
+</head>
+
+<body>
+<div class="container align-middle" id="votingPage">
+  <div class="card mb-3" id="blockvote-card" style="max-width: 569px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <div id="bv-qr-code"></div>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: 600;">BlockVote Card</h5>
+          <p class="card-text"  style="font-weight: 500;font-size: 12px;">
+            <span>Address: </span><span id="bv-address">&nbsp;</span>
+          </p>
+
+          <p class="card-text"  style="font-weight: 500;font-size: 12px;">
+            <span>Voted: </span><span id="bv-voted">&nbsp;</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="js/navbar.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/qrcode.min.js"></script>
+  <script>
+  </script>
+</body>
+
+</html>

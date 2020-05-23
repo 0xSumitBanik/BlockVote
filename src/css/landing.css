@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arimo', serif!important;
+}
+
+
+
+.main-navigation {
+  float: right;
+}
+
+.jumbotron{
+  background-image: url("../img/banner.jpg");
+  background-size:cover;
+}
+
+#votingPage{
+  margin-top:95px;
+}
+
+#blockvote-card{
+  -webkit-box-shadow: 3px 10px 44px 0px rgba(222,222,222,1);
+  -moz-box-shadow: 3px 10px 44px 0px rgba(222,222,222,1);
+  box-shadow: 3px 10px 44px 0px rgba(222,222,222,1);
+  margin: 0px auto!important;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

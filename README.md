@@ -19,8 +19,13 @@ BlockVote is a blockchain based election system which lets voters elect candidat
   4.1 On another window,run the deploy  contract using: `truffle migrate --reset`
 5. Spin up the Blockvote application by running: `npm run dev`
 6. To Cast Vote, 
-  6.1 First Connect to localhost:8545 network in Metamask.
-  6.2 Secondly, copy one of the private key from the Ganache cli console and import it in the Metamask account section.
-  6.3 You should see 99-100 ETH in your address once you import it.
-  6.4 Manually connect Metamask to the cast vote page by clicking on the `Not Connected` option which is shown left side of your address.
-  6.5 Once it shows connected, you can successfully cast your vote.
+
+    6.1 First Connect to localhost:8545 network in Metamask.
+    
+    6.2 Secondly, copy one of the private key from the Ganache cli console and import it in the Metamask account section.
+  
+    6.3 You should see 99-100 ETH in your address once you import it.
+  
+    6.4 Manually connect Metamask to the cast vote page by clicking on the `Not Connected` option which is shown left side of your address.
+  
+    6.5 Once it shows connected, you can successfully cast your vote.
